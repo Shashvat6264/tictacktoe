@@ -26,7 +26,11 @@ body{
     text-align: center;
 }
 
-table{
+#tab{
+    width: 100%;
+}
+
+#tab table{
     position: relative;
     width: 900px;
     height: 900px;
