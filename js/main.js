@@ -190,6 +190,7 @@ function checkall(){
     if (j == 9){
         var node = document.createTextNode("Tie!!");
         result.appendChild(node);
+        result.style.color = "white";
         var button = document.createElement("button");
         var nodebtn = document.createTextNode("Reset All");
         button.appendChild(nodebtn);
